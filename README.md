@@ -3,7 +3,7 @@
 
 Projeto Front-End de calculadora simples.
 
-Nesse projeto, pratiquei conceitos aprendidos em HTML e CSS para desenvolver o front-end de uma calculadora simples. 
+Nesse projeto, pratiquei conceitos aprendidos em HTML e CSS para desenvolver a interface de uma calculadora simples (não funcional). 
 
 
 

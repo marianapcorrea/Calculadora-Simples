@@ -6,10 +6,9 @@
     box-sizing: border-box;
 }
 
-
-body{
+body {
     background-image: url(degrade.jpg);
-    background-clip: border-box; 
+    background-clip: border-box;
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center center;
@@ -17,7 +16,7 @@ body{
     padding: 90px 0;
 }
 
-.calculadora {
+.container {
     width: 400px;
     margin: 0 auto;
     background-color: rgb(3, 3, 3);
@@ -27,7 +26,7 @@ body{
     box-shadow: 0 0 25px rgb(75, 73, 73);
 }
 
-.tela{
+#display {
     display: flex;
     justify-content: flex-end;
     width: 100%;
@@ -43,14 +42,14 @@ body{
     border-style: inset;
 }
 
-.botoes{
+.keys {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-row-gap: 10px;
     column-gap: 4px;
 }
 
-.calculadora button{
+.container button {
     background-color: rgb(61, 55, 55);
     color: white;
     padding: 20px;
@@ -63,19 +62,20 @@ body{
     border-radius: 15px;
 }
 
-button:hover{
+button:hover {
     background-color: rgb(123, 143, 114);
     color: black;
 }
 
-button:active{
-    position:relative;
-    top:5px;
+button:active {
+    position: relative;
+    top: 5px;
 }
 
-#resultado{
-    background-color:rgb(53, 110, 91)
+#equal {
+    background-color: rgb(53, 110, 91);
 }
-#limparTela, #limparCalculo{
+#clearScreen,
+#clearOperation {
     background-color: rgb(172, 29, 29);
 }
